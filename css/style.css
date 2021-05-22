@@ -264,3 +264,67 @@
   min-height: 100%;
   margin-top: 25px;
 }
+
+/* Shop */
+
+#shop {
+  height: 100%;
+  background: url("../slike/aboutslika.jpg") no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#shop h1 {
+  text-align: center;
+  margin-top: 5px;
+  background: whitesmoke;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  opacity: 0.8;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#shop .shop-flex {
+  display: flex;
+}
+
+#shop .product {
+  height: 400px;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  opacity: 0.9;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  background: whitesmoke;
+}
+
+#shop .product img {
+  height: 200px;
+  width: 230px;
+  display: block;
+  margin: auto;
+}
+
+#shop .mob {
+  margin-left: 45%;
+}
+
+#shop .product h4 {
+  text-align: center;
+  color: gray;
+}
+
+#shop .product h3 {
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#shop .price {
+  text-align: center;
+  color: gray;
+  margin-top: -15px;
+}
