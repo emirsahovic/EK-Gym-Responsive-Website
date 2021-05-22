@@ -155,3 +155,92 @@
     padding-bottom: 20px;
     line-height: 1.7em;
   }
+
+ /* Home info */
+
+#home-info {
+  height: 350px;
+  display: flex;
+}
+
+#home-info .info-content {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 60px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* Features */
+
+#features i:hover {
+  transform: scale(1.2);
+}
+
+.boxes {
+  display: flex;
+  height: 250px;
+}
+
+.box {
+  width: 33.3%;
+  padding: 55px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home-footer {
+  display: flex;
+  background: #444;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-footer .icons {
+  width: 15%;
+  text-align: center;
+}
+
+#home-footer .icons a {
+  color: #f0e87d;
+}
+
+#home-footer .first i:hover {
+  color: #3b5998;
+  transform: scale(1.3);
+}
+
+#home-footer .second i:hover {
+  color: #c13584;
+  transform: scale(1.3);
+}
+
+#home-footer .third i:hover {
+  color: #1da1f2;
+  transform: scale(1.3);
+}
+
+#home-footer .fourth i:hover {
+  color: red;
+  transform: scale(1.3);
+} 
