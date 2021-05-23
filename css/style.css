@@ -328,3 +328,47 @@
   color: gray;
   margin-top: -15px;
 }
+
+#main-footer-pod {
+  height: 270px;
+  text-align: center;
+  background-color: #262626;
+  color: #fff;
+  padding: 20px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-footer-pod .flex-podaci {
+  display: flex;
+  margin-top: 10px;
+}
+
+#main-footer-pod .shopfooter,
+.location,
+.classes,
+.contactfooter {
+  width: 25%;
+}
+
+#main-footer-pod .classes p {
+  text-align: center;
+  padding-left: 20px;
+  margin-top: -5px;
+}
+
+#main-footer-pod h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: burlywood;
+}
+
+#main-footer-pod ul {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+#main-footer-pod .mapouter {
+  padding-left: 50px;
+  padding-top: -5px;
+}
