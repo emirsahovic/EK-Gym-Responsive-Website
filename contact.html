@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E&K Gym | Kontakt</title>
+  <link rel="icon" href="https://icons.iconarchive.com/icons/sonya/swarm/16/gym-icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" media="screen and (max-width: 868px)" href="css/mobile.css" />
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo">
+          <a href="index.html">E<span class="text-primary">&</span>K Gym</a>
+        </h1>
+        <ul>
+          <li>
+            <a href="index.html"><b>Početna</b></a>
+          </li>
+          <li>
+            <a href="about.html"><b>O nama</b></a>
+          </li>
+          <li>
+            <a class="current" href="contact.html"><b>Kontakt</b></a>
+          </li>
+          <li>
+            <a href="galerija.html"><b>Galerija</b></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="contact-form" class="py-3">
+    <div class="container">
+      <h1 class="l-heading">Kontaktirajte nas</h1>
+      <p>Molimo Vas da prvo ispunite sljedeću formu:</p>
+      <form action="negdje.php">
+        <div class="form-group">
+          <label for="name">Ime i prezime</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="paketi">Izaberite paket:</label>
+          <select name="paketi" id="paketi">
+            <optgroup label="Dnevni paketi">
+              <option value="intr" selected>
+                Individualni trening | 7KM
+              </option>
+              <option value="grtr">Grupni trening | 10KM</option>
+            </optgroup>
+            <optgroup label="Mjesečni paketi">
+              <option value="intr">Individualni trening | 40KM</option>
+              <option value="grtr">Grupni trening | 60KM</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Vaš komentar</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <button type="submit" class="btn">Potvrdi</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact-info" class="bg-dark">
+    <div class="container">
+      <div class="boxes">
+        <div class="box">
+          <i class="fas fa-map-marker-alt fa-3x"></i>
+          <h3>Lokacija</h3>
+          <p>Fakultetska 1, 72000 Zenica</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Telefon</h3>
+          <p>+38762098723</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email</h3>
+          <p>ekgym@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="mob-cont">
+    <p class="anim" style="
+          font-size: 18px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ">
+      <i>
+        "The fight is won or lost far away from witnesses - behind the lines,
+        in the gym, and out there on the road, long before I dance under those
+        lights."
+      </i>
+    </p>
+    <p class="anim" style="font-size: 16px; font-weight: bolder">
+      Muhammad Ali
+    </p>
+  </footer>
+</body>
+
+</html>
