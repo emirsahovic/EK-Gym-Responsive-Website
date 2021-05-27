@@ -1,0 +1,166 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul {
+  padding-bottom: 15px;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 solid 2px;
+}
+
+#main {
+  height: 650px;
+  padding-top: -30px;
+}
+
+#home-info {
+  display: block;
+  height: 450px;
+}
+
+#home-info .info-content {
+  width: 100%;
+  text-align: center;
+}
+
+#home-info .rem {
+  display: none;
+}
+
+/* Boxes */
+#features .boxes {
+  display: block;
+  height: 900px;
+}
+
+#features .box {
+  width: 100%;
+  height: 300px;
+  font-size: 14px;
+}
+
+#features i {
+  padding-top: 12px;
+}
+
+/* O nama */
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+#about-info .info-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-info audio {
+  width: 70%;
+}
+
+#about-info .info-right iframe {
+  width: 420px;
+  margin-top: 15px;
+}
+
+#shop {
+  padding-bottom: 0px;
+}
+
+#shop .product {
+  height: 320px;
+  margin-left: 10px;
+}
+
+#shop .product h3 {
+  font-size: 15px;
+}
+
+#shop .mob {
+  margin: 15px auto;
+  display: block;
+}
+
+#shop .product img {
+  height: 100px;
+  width: 130px;
+  display: block;
+  margin: auto;
+}
+/* Kontakt */
+
+#contact-info .boxes {
+  display: block;
+  height: 650px;
+}
+
+#contact-info .box {
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+#main-footer-pod {
+  height: 100%;
+}
+
+#main-footer-pod .flex-podaci {
+  display: block;
+}
+
+#main-footer-pod .location,
+.shopfooter,
+.classes,
+.contactfooter {
+  width: 100%;
+}
+
+#main-footer-pod .mapouter {
+  height: 200px;
+  width: 90%;
+}
+
+#main-footer-pod .shopfooter {
+  display: inline;
+}
+
+#main-footer-pod .classes {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-top: #444 solid 2px;
+  border-bottom: #444 solid 2px;
+  padding-top: 10px;
+}
+
+#main-footer-pod .location {
+  border-bottom: #444 solid 2px;
+}
+
+.gallery {
+  display: block;
+}
+
+.gallery__img {
+  padding-top: 15px;
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+}
