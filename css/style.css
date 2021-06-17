@@ -262,7 +262,20 @@
 #about-info .info-right {
   float: right;
   min-height: 100%;
-  margin-top: 25px;
+  margin-top: 15px;
+}
+
+#about-info .info-right img {
+  width: 480px;
+  height: 330px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 5px solid #f0e87d;
+}
+
+#about-info .info-right img:hover {
+  opacity: 0.8;
+  transform: scale(1.04);
 }
 
 /* Shop */

@@ -69,6 +69,10 @@
   align-items: center;
 }
 
+#about-info .info-right img {
+  width: 95%;
+}
+
 #about-info audio {
   width: 70%;
 }
